@@ -2,13 +2,12 @@ package me.auroraluciri.alcocrafvulpinia.blocks;
 
 import me.auroraluciri.alcocrafvulpinia.AlcocrafVulpinia;
 import me.auroraluciri.alcocrafvulpinia.blocks.mugs.MugBlock;
-import com.auroraluciri.alcocrafvulpinia.blocks.mugs.beer.*;
+import me.auroraluciri.alcocrafvulpinia.blocks.mugs.beer.*;
 import me.auroraluciri.alcocrafvulpinia.blocks.plants.Hop;
 import me.auroraluciri.alcocrafvulpinia.blocks.plants.HopPlant;
 import me.auroraluciri.alcocrafvulpinia.blocks.workstations.Keg;
 import me.auroraluciri.alcocrafvulpinia.items.AlcoItems;
 import me.auroraluciri.alcocrafvulpinia.misc.AlcoTabGroup;
-import me.auroraluciri.alcocrafvulpinia.blocks.mugs.beer.*;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
