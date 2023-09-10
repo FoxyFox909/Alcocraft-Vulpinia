@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "alcocraftvulpinia:hop"
+    }
+  ],
+  "result": {
+    "item": "alcocraftvulpinia:hop_seeds"
+  }
+}

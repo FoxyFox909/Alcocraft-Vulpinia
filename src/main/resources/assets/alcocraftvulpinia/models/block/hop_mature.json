@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "alcocraftvulpinia:block/hop_mature"
+  }
+}

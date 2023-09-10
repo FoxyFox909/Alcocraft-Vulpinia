@@ -1,0 +1,59 @@
+{
+  "itemGroup.alcotabgroup": "Alcocraft Reloaded",
+
+  "block.alcocraftvulpinia.keg": "Бочонок",
+  "block.alcocraftvulpinia.hop": "Хмель",
+  "block.alcocraftvulpinia.hop_plant": "Хмель",
+
+  "item.alcocraftvulpinia.hop": "Хмель",
+  "item.alcocraftvulpinia.hop_seeds": "Семена хмеля",
+  "item.alcocraftvulpinia.dry_seeds": "Сушёные семена пшеницы",
+
+  "item.alcocraftvulpinia.mug_empty": "Пустая кружка",
+
+  "item.alcocraftvulpinia.mug_of_sun_pale_ale": "Кружка «Пейл-эля»",
+  "item.alcocraftvulpinia.mug_of_digger_bitter": "Кружка «Горняка-горького»",
+  "item.alcocraftvulpinia.mug_of_nether_porter": "Кружка «Незер-портье»",
+  "item.alcocraftvulpinia.mug_of_wither_stout": "Кружка «Визера-крепкого»",
+  "item.alcocraftvulpinia.mug_of_magnet_pilsner": "Кружка «Пильзнера»",
+  "item.alcocraftvulpinia.mug_of_drowned_ale": "Кружка «Утоп-эля»",
+  "item.alcocraftvulpinia.mug_of_night_rauch": "Кружка «Ночного рауха»",
+  "item.alcocraftvulpinia.mug_of_ice_beer": "Кружка холодного пива",
+  "item.alcocraftvulpinia.mug_of_kvass": "Кружка кваса",
+  "item.alcocraftvulpinia.mug_of_leprechaun_cider": "Кружка сидра",
+  "item.alcocraftvulpinia.mug_of_chorus_ale": "Кружка хорусного эля",
+  "item.alcocraftvulpinia.mug_of_nether_star_lager": "Кружка лагера «Звезда Незера»",
+
+  "block.alcocraftvulpinia.mug_empty": "Пустая кружка",
+
+  "block.alcocraftvulpinia.mug_of_sun_pale_ale": "Кружка «Пейл-эля»",
+  "block.alcocraftvulpinia.mug_of_digger_bitter": "Кружка «Горняка-горького»",
+  "block.alcocraftvulpinia.mug_of_nether_porter": "Кружка «Незер-портье»",
+  "block.alcocraftvulpinia.mug_of_wither_stout": "Кружка «Визера-крепкого»",
+  "block.alcocraftvulpinia.mug_of_magnet_pilsner": "Кружка «Пильзнера»",
+  "block.alcocraftvulpinia.mug_of_drowned_ale": "Кружка «Утоп-эля»",
+  "block.alcocraftvulpinia.mug_of_night_rauch": "Кружка «Ночного рауха»",
+  "block.alcocraftvulpinia.mug_of_ice_beer": "Кружка холодного пива",
+  "block.alcocraftvulpinia.mug_of_kvass": "Кружка кваса",
+  "block.alcocraftvulpinia.mug_of_leprechaun_cider": "Кружка сидра",
+  "block.alcocraftvulpinia.mug_of_chorus_ale": "Кружка хорусного эля",
+  "block.alcocraftvulpinia.mug_of_nether_star_lager": "Кружка лагера «Звезда Незера»",
+
+  "effect.alcocraftvulpinia.flight": "Полёт",
+  "effect.alcocraftvulpinia.freeze": "Мёрзлый",
+  "effect.alcocraftvulpinia.phantom": "Хорошо отдохнувший",
+  "effect.alcocraftvulpinia.attract": "Притяжение",
+  "effect.alcocraftvulpinia.wither": "Касание визера",
+
+  "advancements.husbandry.hop.title": "В хозяйстве сгодится...",
+  "advancements.husbandry.hop.description": "Получите хмель, посадив семена хмеля на нижнюю часть блока",
+
+  "advancements.husbandry.keg.title": "Кубок мудреца",
+  "advancements.husbandry.keg.description": "Создайте кружку и начните свой путь пивовара",
+
+  "advancements.husbandry.mug.title": "Жидкое золото",
+  "advancements.husbandry.mug.description": "Сварите пиво",
+
+  "advancements.husbandry.all_beer.title": "Твоя сила и мудрость",
+  "advancements.husbandry.all_beer.description": "Сварите и выпейте все сорта пива"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "alcocraftvulpinia:beer_brewing",
+  "ingredients": [
+    {
+      "item": "alcocraftvulpinia:hop"
+    },
+    {
+      "item": "alcocraftvulpinia:dry_seeds"
+    },
+    {
+      "item": "minecraft:glow_lichen"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "output": {
+    "item": "alcocraftvulpinia:mug_of_digger_bitter"
+  }
+}

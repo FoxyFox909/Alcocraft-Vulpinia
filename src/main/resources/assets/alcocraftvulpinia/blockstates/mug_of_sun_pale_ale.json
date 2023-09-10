@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "alcocraftvulpinia:block/mug_of_sun_pale_ale" },
+    "facing=east": { "model": "alcocraftvulpinia:block/mug_of_sun_pale_ale", "y": 90 },
+    "facing=south": { "model": "alcocraftvulpinia:block/mug_of_sun_pale_ale", "y": 180 },
+    "facing=west": { "model": "alcocraftvulpinia:block/mug_of_sun_pale_ale", "y": 270 }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "alcocraftvulpinia:beer_brewing",
+  "ingredients": [
+    {
+      "item": "alcocraftvulpinia:hop"
+    },
+    {
+      "item": "alcocraftvulpinia:dry_seeds"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    }
+  ],
+  "output": {
+    "item": "alcocraftvulpinia:mug_of_nether_porter"
+  }
+}

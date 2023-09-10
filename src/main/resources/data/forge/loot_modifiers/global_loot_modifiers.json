@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "entries": [
+    "alcocraftvulpinia:hop_seeds",
+    "alcocraftvulpinia:abandoned_mineshaft",
+    "alcocraftvulpinia:bastion_treasure",
+    "alcocraftvulpinia:end_city_treasure",
+    "alcocraftvulpinia:igloo_chest",
+    "alcocraftvulpinia:nether_bridge",
+    "alcocraftvulpinia:pillager_outpost",
+    "alcocraftvulpinia:ruined_portal",
+    "alcocraftvulpinia:shipwreck",
+    "alcocraftvulpinia:simple_dungeon",
+    "alcocraftvulpinia:underwater_ruins"
+  ]
+}

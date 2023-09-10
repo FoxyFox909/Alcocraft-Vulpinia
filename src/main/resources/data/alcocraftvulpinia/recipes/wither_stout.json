@@ -1,0 +1,20 @@
+{
+  "type": "alcocraftvulpinia:beer_brewing",
+  "ingredients": [
+    {
+      "item": "alcocraftvulpinia:hop"
+    },
+    {
+      "item": "alcocraftvulpinia:dry_seeds"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  ],
+  "output": {
+    "item": "alcocraftvulpinia:mug_of_wither_stout"
+  }
+}

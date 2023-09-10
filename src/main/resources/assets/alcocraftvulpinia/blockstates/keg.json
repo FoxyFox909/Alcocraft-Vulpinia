@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "alcocraftvulpinia:block/keg" },
+    "facing=east": { "model": "alcocraftvulpinia:block/keg", "y": 90 },
+    "facing=south": { "model": "alcocraftvulpinia:block/keg", "y": 180 },
+    "facing=west": { "model": "alcocraftvulpinia:block/keg", "y": 270 }
+  }
+}

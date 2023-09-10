@@ -1,0 +1,20 @@
+{
+  "type": "alcocraftvulpinia:beer_brewing",
+  "ingredients": [
+    {
+      "item": "alcocraftvulpinia:hop"
+    },
+    {
+      "item": "alcocraftvulpinia:dry_seeds"
+    },
+    {
+      "item": "minecraft:snowball"
+    },
+    {
+      "item": "minecraft:packed_ice"
+    }
+  ],
+  "output": {
+    "item": "alcocraftvulpinia:mug_of_ice_beer"
+  }
+}

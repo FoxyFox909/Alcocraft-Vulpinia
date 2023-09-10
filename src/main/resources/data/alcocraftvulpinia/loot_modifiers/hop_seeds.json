@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "block_state_property",
+      "block": "minecraft:grass"
+    }
+  ],
+  "addition": "alcocraftvulpinia:hop_seeds",
+  "type": "alcocraftvulpinia:hop_seeds"
+}

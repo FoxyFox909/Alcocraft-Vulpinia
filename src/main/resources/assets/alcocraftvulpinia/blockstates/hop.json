@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "berries=false": {
+      "model": "alcocraftvulpinia:block/hop"
+    },
+    "berries=true": {
+      "model": "alcocraftvulpinia:block/hop_mature"
+    }
+  }
+}

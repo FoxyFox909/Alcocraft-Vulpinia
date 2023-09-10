@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "alcocraftvulpinia:block/mug_of_kvass" },
+    "facing=east": { "model": "alcocraftvulpinia:block/mug_of_kvass", "y": 90 },
+    "facing=south": { "model": "alcocraftvulpinia:block/mug_of_kvass", "y": 180 },
+    "facing=west": { "model": "alcocraftvulpinia:block/mug_of_kvass", "y": 270 }
+  }
+}
