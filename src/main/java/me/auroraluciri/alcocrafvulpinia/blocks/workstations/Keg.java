@@ -114,93 +114,106 @@ public class Keg extends BaseEntityBlock {
 
                     int beer = ((KegEntity) entity).beerType;
 
+                    System.out.println("Current Beer type = " + beer);
+
                     switch (beer) {
                         case 1: {
-                            if (itemStack.isEmpty())
+                            if (itemStack.isEmpty()) {
                                 player.setItemInHand(hand, new ItemStack(AlcoItems.MUG_OF_SUN_PALE_ALE.get()));
-
-                            else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_SUN_PALE_ALE.get())))
+                            } else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_SUN_PALE_ALE.get()))) {
                                 player.drop(new ItemStack(AlcoItems.MUG_OF_SUN_PALE_ALE.get()), false);
+                            }
+                            break;
                         }
 
                         case 2: {
-                            if (itemStack.isEmpty())
+                            if (itemStack.isEmpty()) {
                                 player.setItemInHand(hand, new ItemStack(AlcoItems.MUG_OF_DIGGER_BITTER.get()));
-
-                            else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_DIGGER_BITTER.get())))
+                            } else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_DIGGER_BITTER.get()))) {
                                 player.drop(new ItemStack(AlcoItems.MUG_OF_DIGGER_BITTER.get()), false);
+                            }
+                            break;
                         }
 
                         case 3: {
-                            if (itemStack.isEmpty())
+                            if (itemStack.isEmpty()) {
                                 player.setItemInHand(hand, new ItemStack(AlcoItems.MUG_OF_NETHER_PORTER.get()));
-
-                            else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_NETHER_PORTER.get())))
+                            } else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_NETHER_PORTER.get()))) {
                                 player.drop(new ItemStack(AlcoItems.MUG_OF_NETHER_PORTER.get()), false);
+                            }
+                            break;
                         }
 
                         case 4: {
-                            if (itemStack.isEmpty())
+                            if (itemStack.isEmpty()) {
                                 player.setItemInHand(hand, new ItemStack(AlcoItems.MUG_OF_WITHER_STOUT.get()));
-
-                            else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_WITHER_STOUT.get())))
+                            } else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_WITHER_STOUT.get()))) {
                                 player.drop(new ItemStack(AlcoItems.MUG_OF_WITHER_STOUT.get()), false);
+                            }
+                            break;
                         }
 
                         case 5: {
-                            if (itemStack.isEmpty())
+                            if (itemStack.isEmpty()) {
                                 player.setItemInHand(hand, new ItemStack(AlcoItems.MUG_OF_MAGNET_PILSNER.get()));
-
-                            else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_MAGNET_PILSNER.get())))
+                            } else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_MAGNET_PILSNER.get()))) {
                                 player.drop(new ItemStack(AlcoItems.MUG_OF_MAGNET_PILSNER.get()), false);
+                            }
+                            break;
                         }
 
                         case 6: {
-                            if (itemStack.isEmpty())
+                            if (itemStack.isEmpty()) {
                                 player.setItemInHand(hand, new ItemStack(AlcoItems.MUG_OF_DROWNED_ALE.get()));
-
-                            else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_DROWNED_ALE.get())))
+                            } else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_DROWNED_ALE.get()))) {
                                 player.drop(new ItemStack(AlcoItems.MUG_OF_DROWNED_ALE.get()), false);
+                            }
+                            break;
                         }
 
                         case 7: {
-                            if (itemStack.isEmpty())
+                            if (itemStack.isEmpty()) {
                                 player.setItemInHand(hand, new ItemStack(AlcoItems.MUG_OF_NIGHT_RAUCH.get()));
-
-                            else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_NIGHT_RAUCH.get())))
+                            } else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_NIGHT_RAUCH.get()))) {
                                 player.drop(new ItemStack(AlcoItems.MUG_OF_NIGHT_RAUCH.get()), false);
+                            }
+                            break;
                         }
 
                         case 8: {
-                            if (itemStack.isEmpty())
+                            if (itemStack.isEmpty()) {
                                 player.setItemInHand(hand, new ItemStack(AlcoItems.MUG_OF_ICE_BEER.get()));
-
-                            else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_ICE_BEER.get())))
+                            } else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_ICE_BEER.get()))) {
                                 player.drop(new ItemStack(AlcoItems.MUG_OF_ICE_BEER.get()), false);
+                            }
+                            break;
                         }
 
                         case 9: {
-                            if (itemStack.isEmpty())
+                            if (itemStack.isEmpty()) {
                                 player.setItemInHand(hand, new ItemStack(AlcoItems.MUG_OF_KVASS.get()));
-
-                            else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_KVASS.get())))
+                            } else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_KVASS.get()))) {
                                 player.drop(new ItemStack(AlcoItems.MUG_OF_KVASS.get()), false);
+                            }
+                            break;
                         }
 
                         case 10: {
-                            if (itemStack.isEmpty())
+                            if (itemStack.isEmpty()) {
                                 player.setItemInHand(hand, new ItemStack(AlcoItems.MUG_OF_LEPRECHAUN_CIDER.get()));
-
-                            else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_LEPRECHAUN_CIDER.get())))
+                            } else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_LEPRECHAUN_CIDER.get()))) {
                                 player.drop(new ItemStack(AlcoItems.MUG_OF_LEPRECHAUN_CIDER.get()), false);
+                            }
+                            break;
                         }
 
                         case 11: {
-                            if (itemStack.isEmpty())
+                            if (itemStack.isEmpty()) {
                                 player.setItemInHand(hand, new ItemStack(AlcoItems.MUG_OF_CHORUS_ALE.get()));
-
-                            else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_CHORUS_ALE.get())))
+                            } else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_CHORUS_ALE.get()))) {
                                 player.drop(new ItemStack(AlcoItems.MUG_OF_CHORUS_ALE.get()), false);
+                            }
+                            break;
                         }
 
                         case 12: {
@@ -209,6 +222,7 @@ public class Keg extends BaseEntityBlock {
                             } else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_NETHER_STAR_LAGER.get()))) {
                                 player.drop(new ItemStack(AlcoItems.MUG_OF_NETHER_STAR_LAGER.get()), false);
                             }
+                            break;
                         }
                     }
 
