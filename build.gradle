@@ -19,8 +19,8 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'org.parchmentmc.librarian.forgegradle'
 
 version = '1.0'
-group = 'com.auroraluciri.alcocrafvulpinia'
-archivesBaseName = 'alcocrafvulpinia'
+group = 'com.auroraluciri.alcocraftvulpinia'
+archivesBaseName = 'alcocraftvulpinia'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
@@ -36,7 +36,7 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'alcocrafvulpinia'
+            property 'forge.enabledGameTestNamespaces', 'alcocraftvulpinia'
 
             mods {
                 alcocraftvulpinia {
@@ -52,7 +52,7 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'alcocrafvulpinia'
+            property 'forge.enabledGameTestNamespaces', 'alcocraftvulpinia'
 
             mods {
                 alcocraftvulpinia {
@@ -68,7 +68,7 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'alcocrafvulpinia'
+            property 'forge.enabledGameTestNamespaces', 'alcocraftvulpinia'
 
             mods {
                 alcocraftvulpinia {
@@ -85,7 +85,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'alcocrafvulpinia', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'alcocraftvulpinia', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
                 alcocraftvulpinia {
@@ -119,7 +119,7 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "alcocrafvulpinia",
+                "Specification-Title"     : "alcocraftvulpinia",
                 "Specification-Vendor"    : "alcocraftvulpiniasareus",
                 "Specification-Version"   : "1", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
