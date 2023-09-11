@@ -1,6 +1,6 @@
 package me.auroraluciri.alcocraftvulpinia.effects;
 
-import me.auroraluciri.alcocraftvulpinia.AlcocrafVulpinia;
+import me.auroraluciri.alcocraftvulpinia.AlcocraftVulpinia;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -9,7 +9,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class AlcoEffects {
-    public static final DeferredRegister<MobEffect> EFFECTS = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, AlcocrafVulpinia.MOD_ID);
+    public static final DeferredRegister<MobEffect> EFFECTS = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, AlcocraftVulpinia.MOD_ID);
 
     public static final RegistryObject<MobEffect> ATTRACT = EFFECTS.register("attract",
             () -> new AttractEffect(MobEffectCategory.BENEFICIAL, rawColorFromRGB(170, 14, 1)));

@@ -1,6 +1,6 @@
 package me.auroraluciri.alcocraftvulpinia.events;
 
-import me.auroraluciri.alcocraftvulpinia.AlcocrafVulpinia;
+import me.auroraluciri.alcocraftvulpinia.AlcocraftVulpinia;
 import me.auroraluciri.alcocraftvulpinia.loot.DungeonChests;
 import me.auroraluciri.alcocraftvulpinia.loot.HopSeeds;
 import me.auroraluciri.alcocraftvulpinia.particles.AlcoParticles;
@@ -18,7 +18,7 @@ import net.minecraftforge.fml.common.Mod;
 
 import javax.annotation.Nonnull;
 
-@Mod.EventBusSubscriber(modid = AlcocrafVulpinia.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod.EventBusSubscriber(modid = AlcocraftVulpinia.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class AlcoCraftEvents {
     @SubscribeEvent
     public static void registerRecipeTypes(final RegistryEvent.Register<RecipeSerializer<?>> event) {
@@ -36,12 +36,12 @@ public class AlcoCraftEvents {
                                                            event) {
         event.getRegistry().register(
                 new HopSeeds.Serializer().setRegistryName
-                        (new ResourceLocation(AlcocrafVulpinia.MOD_ID,"hop_seeds"))
+                        (new ResourceLocation(AlcocraftVulpinia.MOD_ID,"hop_seeds"))
         );
 
         event.getRegistry().register(
                 new DungeonChests.Serializer().setRegistryName
-                        (new ResourceLocation(AlcocrafVulpinia.MOD_ID,"add_item"))
+                        (new ResourceLocation(AlcocraftVulpinia.MOD_ID,"add_item"))
         );
     }
 }

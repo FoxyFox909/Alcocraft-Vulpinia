@@ -20,12 +20,12 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod(AlcocrafVulpinia.MOD_ID)
-public class AlcocrafVulpinia {
+@Mod(AlcocraftVulpinia.MOD_ID)
+public class AlcocraftVulpinia {
     public static final String MOD_ID = "alcocraftvulpinia";
     private static final Logger LOGGER = LogManager.getLogger();
 
-    public AlcocrafVulpinia() {
+    public AlcocraftVulpinia() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         AlcoBlocks.register(eventBus);

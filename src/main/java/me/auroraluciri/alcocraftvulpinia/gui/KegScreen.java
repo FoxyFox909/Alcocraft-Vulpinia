@@ -3,7 +3,7 @@ package me.auroraluciri.alcocraftvulpinia.gui;
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.logging.LogUtils;
-import me.auroraluciri.alcocraftvulpinia.AlcocrafVulpinia;
+import me.auroraluciri.alcocraftvulpinia.AlcocraftVulpinia;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
@@ -17,11 +17,11 @@ import org.slf4j.Logger;
 
 public class KegScreen extends AbstractContainerScreen<KegMenu> {
     private static final ResourceLocation TEXTURE =
-            new ResourceLocation(AlcocrafVulpinia.MOD_ID, "textures/gui/keg_gui.png");
+            new ResourceLocation(AlcocraftVulpinia.MOD_ID, "textures/gui/keg_gui.png");
     private static final ResourceLocation OVERLAY =
-            new ResourceLocation(AlcocrafVulpinia.MOD_ID, "textures/gui/keg_overlay.png");
+            new ResourceLocation(AlcocraftVulpinia.MOD_ID, "textures/gui/keg_overlay.png");
     private static final ResourceLocation BG =
-            new ResourceLocation(AlcocrafVulpinia.MOD_ID, "textures/gui/dark_bg.png");
+            new ResourceLocation(AlcocraftVulpinia.MOD_ID, "textures/gui/dark_bg.png");
 
     private static final Fluid fluid = Fluids.WATER;
 

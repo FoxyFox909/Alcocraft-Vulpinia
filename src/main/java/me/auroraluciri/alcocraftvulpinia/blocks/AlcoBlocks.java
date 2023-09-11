@@ -1,6 +1,6 @@
 package me.auroraluciri.alcocraftvulpinia.blocks;
 
-import me.auroraluciri.alcocraftvulpinia.AlcocrafVulpinia;
+import me.auroraluciri.alcocraftvulpinia.AlcocraftVulpinia;
 import me.auroraluciri.alcocraftvulpinia.blocks.mugs.MugBlock;
 import me.auroraluciri.alcocraftvulpinia.blocks.mugs.beer.*;
 import me.auroraluciri.alcocraftvulpinia.blocks.plants.Hop;
@@ -23,7 +23,7 @@ import net.minecraftforge.registries.RegistryObject;
 import java.util.function.Supplier;
 
 public class AlcoBlocks {
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, AlcocrafVulpinia.MOD_ID);
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, AlcocraftVulpinia.MOD_ID);
 
     public static final RegistryObject<Block> KEG = registerBlock("keg",
             () -> new Keg(BlockBehaviour.Properties

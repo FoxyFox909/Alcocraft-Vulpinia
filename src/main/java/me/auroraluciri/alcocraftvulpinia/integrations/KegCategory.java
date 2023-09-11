@@ -1,6 +1,6 @@
 package me.auroraluciri.alcocraftvulpinia.integrations;
 
-import me.auroraluciri.alcocraftvulpinia.AlcocrafVulpinia;
+import me.auroraluciri.alcocraftvulpinia.AlcocraftVulpinia;
 import me.auroraluciri.alcocraftvulpinia.blocks.AlcoBlocks;
 import me.auroraluciri.alcocraftvulpinia.recipes.KegRecipe;
 import mezz.jei.api.constants.VanillaTypes;
@@ -18,9 +18,9 @@ import net.minecraft.world.item.ItemStack;
 import javax.annotation.Nonnull;
 
 public class KegCategory implements IRecipeCategory<KegRecipe> {
-    public final static ResourceLocation UID = new ResourceLocation(AlcocrafVulpinia.MOD_ID, "beer_brewing");
+    public final static ResourceLocation UID = new ResourceLocation(AlcocraftVulpinia.MOD_ID, "beer_brewing");
     public final static ResourceLocation TEXTURE =
-            new ResourceLocation(AlcocrafVulpinia.MOD_ID, "textures/gui/jei_gui.png");
+            new ResourceLocation(AlcocraftVulpinia.MOD_ID, "textures/gui/jei_gui.png");
 
     private final IDrawable background;
     private final IDrawable icon;

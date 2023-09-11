@@ -1,6 +1,6 @@
 package me.auroraluciri.alcocraftvulpinia.gui;
 
-import me.auroraluciri.alcocraftvulpinia.AlcocrafVulpinia;
+import me.auroraluciri.alcocraftvulpinia.AlcocraftVulpinia;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraftforge.common.extensions.IForgeMenuType;
@@ -12,7 +12,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class AlcoMenuTypes {
     public static final DeferredRegister<MenuType<?>> MENUS =
-            DeferredRegister.create(ForgeRegistries.CONTAINERS, AlcocrafVulpinia.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.CONTAINERS, AlcocraftVulpinia.MOD_ID);
 
     public static final RegistryObject<MenuType<KegMenu>> KEG_MENU = registerMenuType(KegMenu::new, "keg_menu");
 

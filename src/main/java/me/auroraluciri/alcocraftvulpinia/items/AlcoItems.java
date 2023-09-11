@@ -1,6 +1,6 @@
 package me.auroraluciri.alcocraftvulpinia.items;
 
-import me.auroraluciri.alcocraftvulpinia.AlcocrafVulpinia;
+import me.auroraluciri.alcocraftvulpinia.AlcocraftVulpinia;
 import me.auroraluciri.alcocraftvulpinia.misc.AlcoBeerProperties;
 import me.auroraluciri.alcocraftvulpinia.misc.AlcoTabGroup;
 import me.auroraluciri.alcocraftvulpinia.blocks.AlcoBlocks;
@@ -12,7 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class AlcoItems {
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, AlcocrafVulpinia.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, AlcocraftVulpinia.MOD_ID);
 
     public static final RegistryObject<Item> HOP = ITEMS.register("hop",
             () -> new Item(new Item.Properties()
