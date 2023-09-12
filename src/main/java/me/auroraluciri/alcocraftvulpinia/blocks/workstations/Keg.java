@@ -1,6 +1,7 @@
 package me.auroraluciri.alcocraftvulpinia.blocks.workstations;
 
 import me.auroraluciri.alcocraftvulpinia.blocks.AlcoBlockEntities;
+import me.auroraluciri.alcocraftvulpinia.fluids.AlcoFluids;
 import me.auroraluciri.alcocraftvulpinia.items.AlcoItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerPlayer;
@@ -95,7 +96,7 @@ public class Keg extends BaseEntityBlock {
             if (entity instanceof KegEntity) {
                 if (itemStack.is(Items.WATER_BUCKET) && ((KegEntity) entity).waterLevel < ((KegEntity) entity).maxWaterLevel
                         && ((KegEntity) entity).beerLevel == 0) {
-                    ((KegEntity) entity).waterLevel = ((KegEntity) entity).waterLevel + 8;
+                    ((KegEntity) entity).waterLevel = ((KegEntity) entity).maxWaterLevel;
                     world.playSound(null, pos, SoundEvents.BUCKET_EMPTY, SoundSource.BLOCKS, 1f, 1f);
 
                     if (!player.isCreative())
@@ -105,8 +106,35 @@ public class Keg extends BaseEntityBlock {
                         player.setItemInHand(hand, new ItemStack(Items.BUCKET));
 
                     world.gameEvent(player, GameEvent.FLUID_PLACE, pos);
-                } 
-                
+                }
+
+                else if (itemStack.is(Items.BUCKET) && ((KegEntity) entity).beerLevel == ((KegEntity) entity).maxWaterLevel ) {
+
+                    itemStack.shrink(1);
+
+                    int beer = ((KegEntity) entity).beerType;
+
+                    switch (beer) {
+                        case 11: {
+                            if (itemStack.isEmpty()) {
+                                player.setItemInHand(hand, new ItemStack(AlcoFluids.CHORUS_ALE.get().getBucket()));
+                            } else if (!player.getInventory().add(new ItemStack(AlcoFluids.CHORUS_ALE.get().getBucket()))) {
+                                player.drop(new ItemStack(AlcoFluids.CHORUS_ALE.get().getBucket()), false);
+                            }
+                            break;
+                        }
+                    }
+
+                    ((KegEntity) entity).beerLevel = 0;
+
+                    world.playSound(null, pos, SoundEvents.BARREL_OPEN, SoundSource.BLOCKS, 0.4f, 0.7f);
+                    world.playSound(null, pos, SoundEvents.BUCKET_FILL, SoundSource.BLOCKS, 0.85f, 1);
+
+                    world.gameEvent(player, GameEvent.FLUID_PICKUP, pos);
+
+                }
+
+
                 else if (itemStack.is(AlcoItems.MUG_EMPTY.get()) && ((KegEntity) entity).beerLevel != 0) {
 
                     if (!player.isCreative())
@@ -114,7 +142,7 @@ public class Keg extends BaseEntityBlock {
 
                     int beer = ((KegEntity) entity).beerType;
 
-                    System.out.println("Current Beer type = " + beer);
+                    //System.out.println("Current Beer type = " + beer);
 
                     switch (beer) {
                         case 1: {
@@ -226,7 +254,10 @@ public class Keg extends BaseEntityBlock {
                         }
                     }
 
-                    ((KegEntity) entity).beerLevel = ((KegEntity) entity).beerLevel - 2;
+                    ((KegEntity) entity).beerLevel = ((KegEntity) entity).beerLevel - 250;          /* 250 mB = 1 beer */
+
+                    world.playSound(null, pos, SoundEvents.BARREL_OPEN, SoundSource.BLOCKS, 0.40f, 0.7f);
+                    world.playSound(null, pos, SoundEvents.BOTTLE_FILL, SoundSource.BLOCKS, 0.85f, 0.85f);
 
                 } else {
                     world.playSound(null, pos, SoundEvents.CHICKEN_EGG, SoundSource.BLOCKS, 1f, 0.01f);

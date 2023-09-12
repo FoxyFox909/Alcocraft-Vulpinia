@@ -47,7 +47,7 @@ public class KegEntity extends BlockEntity implements MenuProvider {
     //private int maxProgress = 18000;
     private int maxProgress = 100;
     public int waterLevel = 0;
-    public int maxWaterLevel = 40;
+    public int maxWaterLevel = 1000;            /* milliBuckets */
     public int beerLevel = 0;
     public int beerType = 0;
 

@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "alcocraftvulpinia:chorus_ale_bucket"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "fluid": "alcocraftvulpinia:chorus_ale",
+      "amount": 1000
+    }
+  ]
+}

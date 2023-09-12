@@ -89,7 +89,7 @@ public class KegScreen extends AbstractContainerScreen<KegMenu> {
 
         int z = this.menu.getWaterLevel();
         x = (width - sprite.getWidth()) / 2 - 80;
-        y = (height - sprite.getHeight()) / 2 - 19 - z;
+        y = (height - sprite.getHeight()) / 2 - 19 - (int) (z * 0.04);
 
         RenderSystem.setShaderTexture(0, InventoryMenu.BLOCK_ATLAS);
         RenderSystem.setShaderColor(((color >> 16) & 0xFF) / 255f, ((color >> 8) & 0xFF) / 255f,
@@ -107,7 +107,7 @@ public class KegScreen extends AbstractContainerScreen<KegMenu> {
 
         z = this.menu.getBeerLevel();
         x = (width - sprite.getWidth()) / 2 - 80;
-        y = (height - sprite.getHeight()) / 2 - 19 - z;
+        y = (height - sprite.getHeight()) / 2 - 19 - (int) (z * 0.04);
 
         RenderSystem.setShaderTexture(0, InventoryMenu.BLOCK_ATLAS);
 
