@@ -1,0 +1,28 @@
+{
+  "type": "createdieselgenerators:basin_fermenting",
+  "ingredients": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 1000
+    },
+    {
+      "item": "alcocraftvulpinia:hop"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    },
+    {
+      "item": "minecraft:bread"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "fluid": "alcocraftvulpinia:kvass",
+      "amount": 1000
+    }
+  ]
+}

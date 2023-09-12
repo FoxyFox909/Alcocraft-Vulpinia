@@ -62,7 +62,7 @@ public class AlcoFluids {
                             .explosionResistance(100f))
                     .source(ForgeFlowingFluid.Source::new)
                     .bucket()
-                        .properties(b -> b.rarity(Rarity.UNCOMMON))//
+                        .properties(b -> b.rarity(Rarity.UNCOMMON))
                     .build()
                     .register();
 
@@ -79,7 +79,7 @@ public class AlcoFluids {
                             .explosionResistance(100f))
                     .source(ForgeFlowingFluid.Source::new)
                     .bucket()
-                    .properties(b -> b.rarity(Rarity.UNCOMMON))//
+                    .properties(b -> b.rarity(Rarity.UNCOMMON))
                     .build()
                     .register();
 
@@ -96,7 +96,7 @@ public class AlcoFluids {
                             .explosionResistance(100f))
                     .source(ForgeFlowingFluid.Source::new)
                     .bucket()
-                    .properties(b -> b.rarity(Rarity.UNCOMMON))//
+                    .properties(b -> b.rarity(Rarity.UNCOMMON))
                     .build()
                     .register();
 
@@ -113,7 +113,24 @@ public class AlcoFluids {
                             .explosionResistance(100f))
                     .source(ForgeFlowingFluid.Source::new)
                     .bucket()
-                    .properties(b -> b.rarity(Rarity.UNCOMMON))//
+                    .properties(b -> b.rarity(Rarity.UNCOMMON))
+                    .build()
+                    .register();
+
+    public static final FluidEntry<ForgeFlowingFluid.Flowing> KVASS =
+            REGISTRATE.fluid("kvass", new ResourceLocation("minecraft:block/water_still"), new ResourceLocation("minecraft:block/water_flow"))
+                    .lang("Kvass")
+                    .attributes(b -> b.viscosity(1500)
+                            .density(500)
+                            .color(0xFFD19B06)
+                            .sound(SoundEvents.BUCKET_FILL))
+                    .properties(p -> p.levelDecreasePerBlock(2)
+                            .tickRate(25)
+                            .slopeFindDistance(3)
+                            .explosionResistance(100f))
+                    .source(ForgeFlowingFluid.Source::new)
+                    .bucket()
+                    .properties(b -> b.rarity(Rarity.UNCOMMON))
                     .build()
                     .register();
 

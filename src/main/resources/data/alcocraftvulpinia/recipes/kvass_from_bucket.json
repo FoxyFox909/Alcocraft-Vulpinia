@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "alcocraftvulpinia:kvass_bucket"
+    },
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    },
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    },
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    },
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    }
+  ],
+  "result": {
+    "item": "alcocraftvulpinia:mug_of_kvass",
+    "count": 4
+  }
+}

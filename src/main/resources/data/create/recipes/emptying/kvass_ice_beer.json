@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "alcocraftvulpinia:mug_of_kvass"
+    }
+  ],
+  "results": [
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    },
+    {
+      "fluid": "alcocraftvulpinia:kvass",
+      "amount": 250
+    }
+  ]
+}

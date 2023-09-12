@@ -47,6 +47,8 @@
   "item.alcocraftvulpinia.drowned_ale_bucket": "Drowned Ale Bucket",
   "block.alcocraftvulpinia.ice_beer": "Ice Beer",
   "item.alcocraftvulpinia.ice_beer_bucket": "Ice Beer Bucket",
+  "block.alcocraftvulpinia.kvass": "Kvass",
+  "item.alcocraftvulpinia.kvass_bucket": "Kvass Bucket",
 
   "effect.alcocraftvulpinia.flight": "Flight",
   "effect.alcocraftvulpinia.freeze": "Frosty",
