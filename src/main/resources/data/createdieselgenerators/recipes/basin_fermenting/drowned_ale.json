@@ -1,0 +1,28 @@
+{
+  "type": "createdieselgenerators:basin_fermenting",
+  "ingredients": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 1000
+    },
+    {
+      "item": "alcocraftvulpinia:hop"
+    },
+    {
+      "item": "alcocraftvulpinia:dry_seeds"
+    },
+    {
+      "item": "minecraft:prismarine_crystals"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "fluid": "alcocraftvulpinia:drowned_ale",
+      "amount": 1000
+    }
+  ]
+}

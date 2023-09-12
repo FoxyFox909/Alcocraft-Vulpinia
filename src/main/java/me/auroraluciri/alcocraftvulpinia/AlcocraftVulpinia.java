@@ -71,9 +71,10 @@ public class AlcocraftVulpinia {
 
         ItemBlockRenderTypes.setRenderLayer(AlcoFluids.CHORUS_ALE.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(AlcoFluids.CHORUS_ALE.get().getSource(), RenderType.translucent());
-
         ItemBlockRenderTypes.setRenderLayer(AlcoFluids.DIGGER_BITTER.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(AlcoFluids.DIGGER_BITTER.get().getSource(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(AlcoFluids.DROWNED_ALE.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(AlcoFluids.DROWNED_ALE.get().getSource(), RenderType.translucent());
 
         MenuScreens.register(AlcoMenuTypes.KEG_MENU.get(), KegScreen::new);
     }
