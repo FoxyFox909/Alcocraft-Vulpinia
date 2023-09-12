@@ -49,6 +49,8 @@
   "item.alcocraftvulpinia.ice_beer_bucket": "Ice Beer Bucket",
   "block.alcocraftvulpinia.kvass": "Kvass",
   "item.alcocraftvulpinia.kvass_bucket": "Kvass Bucket",
+  "block.alcocraftvulpinia.leprechaun_cider": "Leprechaun Cider",
+  "item.alcocraftvulpinia.leprechaun_cider_bucket": "Leprechaun Cider Bucket",
 
   "effect.alcocraftvulpinia.flight": "Flight",
   "effect.alcocraftvulpinia.freeze": "Frosty",

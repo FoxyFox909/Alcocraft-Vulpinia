@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "alcocraftvulpinia:mug_of_leprechaun_cider"
+    }
+  ],
+  "results": [
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    },
+    {
+      "fluid": "alcocraftvulpinia:leprechaun_cider",
+      "amount": 250
+    }
+  ]
+}

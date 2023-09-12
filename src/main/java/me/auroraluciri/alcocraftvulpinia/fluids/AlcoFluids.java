@@ -134,6 +134,23 @@ public class AlcoFluids {
                     .build()
                     .register();
 
+    public static final FluidEntry<ForgeFlowingFluid.Flowing> LEPRECHAUN_CIDER =
+            REGISTRATE.fluid("leprechaun_cider", new ResourceLocation("minecraft:block/water_still"), new ResourceLocation("minecraft:block/water_flow"))
+                    .lang("Leprechaun Cider")
+                    .attributes(b -> b.viscosity(1500)
+                            .density(500)
+                            .color(0xFF58C74E)
+                            .sound(SoundEvents.BUCKET_FILL))
+                    .properties(p -> p.levelDecreasePerBlock(2)
+                            .tickRate(25)
+                            .slopeFindDistance(3)
+                            .explosionResistance(100f))
+                    .source(ForgeFlowingFluid.Source::new)
+                    .bucket()
+                    .properties(b -> b.rarity(Rarity.UNCOMMON))
+                    .build()
+                    .register();
+
     public static void register(IEventBus eventBus) {}
 }
 
