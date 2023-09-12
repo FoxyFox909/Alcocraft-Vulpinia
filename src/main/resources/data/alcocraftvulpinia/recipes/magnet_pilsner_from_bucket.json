@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "alcocraftvulpinia:leprechaun_cider_bucket"
+      "item": "alcocraftvulpinia:magnet_pilsner_bucket"
     },
     {
       "item": "alcocraftvulpinia:mug_empty"
@@ -18,7 +18,7 @@
     }
   ],
   "result": {
-    "item": "alcocraftvulpinia:mug_of_leprechaun_cider",
+    "item": "alcocraftvulpinia:mug_of_magnet_pilsner",
     "count": 4
   }
 }

@@ -50,6 +50,8 @@
   "block.alcocraftvulpinia.kvass": "Kvass",
   "item.alcocraftvulpinia.kvass_bucket": "Kvass Bucket",
   "block.alcocraftvulpinia.leprechaun_cider": "Leprechaun Cider",
+  "item.alcocraftvulpinia.magnet_pilsner_bucket": "Magnet Pilsner Bucket",
+  "block.alcocraftvulpinia.magnet_pilsner": "Magnet Pilsner",
   "item.alcocraftvulpinia.leprechaun_cider_bucket": "Leprechaun Cider Bucket",
 
   "effect.alcocraftvulpinia.flight": "Flight",

@@ -81,6 +81,8 @@ public class AlcocraftVulpinia {
         ItemBlockRenderTypes.setRenderLayer(AlcoFluids.KVASS.get().getSource(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(AlcoFluids.LEPRECHAUN_CIDER.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(AlcoFluids.LEPRECHAUN_CIDER.get().getSource(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(AlcoFluids.MAGNET_PILSNER.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(AlcoFluids.MAGNET_PILSNER.get().getSource(), RenderType.translucent());
 
         MenuScreens.register(AlcoMenuTypes.KEG_MENU.get(), KegScreen::new);
     }

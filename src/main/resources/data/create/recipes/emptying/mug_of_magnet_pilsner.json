@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "alcocraftvulpinia:mug_of_magnet_pilsner"
+    }
+  ],
+  "results": [
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    },
+    {
+      "fluid": "alcocraftvulpinia:magnet_pilsner",
+      "amount": 250
+    }
+  ]
+}
