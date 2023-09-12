@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "alcocraftvulpinia:digger_bitter_bucket"
+    },
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    },
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    },
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    },
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    }
+  ],
+  "result": {
+    "item": "alcocraftvulpinia:mug_of_digger_bitter",
+    "count": 4
+  }
+}

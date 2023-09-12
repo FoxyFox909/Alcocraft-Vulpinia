@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "alcocraftvulpinia:mug_of_digger_bitter"
+    }
+  ],
+  "results": [
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    },
+    {
+      "fluid": "alcocraftvulpinia:digger_bitter",
+      "amount": 250
+    }
+  ]
+}

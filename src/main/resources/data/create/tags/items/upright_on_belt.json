@@ -3,6 +3,8 @@
   "values": [
     "alcocraftvulpinia:mug_empty",
     "alcocraftvulpinia:mug_of_chorus_ale",
-    "alcocraftvulpinia:chorus_ale_bucket"
+    "alcocraftvulpinia:chorus_ale_bucket",
+    "alcocraftvulpinia:mug_of_digger_bitter",
+    "alcocraftvulpinia:digger_bitter_bucket"
   ]
 }

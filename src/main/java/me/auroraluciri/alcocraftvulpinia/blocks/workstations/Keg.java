@@ -115,6 +115,15 @@ public class Keg extends BaseEntityBlock {
                     int beer = ((KegEntity) entity).beerType;
 
                     switch (beer) {
+                        case 2: {
+                            if (itemStack.isEmpty()) {
+                                player.setItemInHand(hand, new ItemStack(AlcoFluids.DIGGER_BITTER.get().getBucket()));
+                            } else if (!player.getInventory().add(new ItemStack(AlcoFluids.DIGGER_BITTER.get().getBucket()))) {
+                                player.drop(new ItemStack(AlcoFluids.DIGGER_BITTER.get().getBucket()), false);
+                            }
+                            break;
+                        }
+
                         case 11: {
                             if (itemStack.isEmpty()) {
                                 player.setItemInHand(hand, new ItemStack(AlcoFluids.CHORUS_ALE.get().getBucket()));
