@@ -39,6 +39,9 @@
   "block.alcocraftvulpinia.mug_of_chorus_ale": "Кружка хорусного эля",
   "block.alcocraftvulpinia.mug_of_nether_star_lager": "Кружка лагера «Звезда Незера»",
 
+  "block.alcocraftvulpinia.chorus_ale": "Chorus Ale",
+  "item.alcocraftvulpinia.chorus_ale_bucket": "Chorus Ale Bucket",
+
   "effect.alcocraftvulpinia.flight": "Flight",
   "effect.alcocraftvulpinia.freeze": "Frosty",
   "effect.alcocraftvulpinia.phantom": "Well Rested",

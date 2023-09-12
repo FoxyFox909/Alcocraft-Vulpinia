@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "alcocraftvulpinia:chorus_ale_bucket"
+    },
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    },
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    },
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    },
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    }
+  ],
+  "result": {
+    "item": "alcocraftvulpinia:mug_of_chorus_ale",
+    "count": 4
+  }
+}
