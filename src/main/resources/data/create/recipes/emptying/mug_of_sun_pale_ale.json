@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "alcocraftvulpinia:mug_of_sun_pale_ale"
+    }
+  ],
+  "results": [
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    },
+    {
+      "fluid": "alcocraftvulpinia:sun_pale_ale",
+      "amount": 250
+    }
+  ]
+}

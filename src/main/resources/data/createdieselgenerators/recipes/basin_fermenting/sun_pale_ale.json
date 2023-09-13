@@ -1,0 +1,28 @@
+{
+  "type": "createdieselgenerators:basin_fermenting",
+  "ingredients": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 1000
+    },
+    {
+      "item": "alcocraftvulpinia:hop"
+    },
+    {
+      "item": "alcocraftvulpinia:dry_seeds"
+    },
+    {
+      "item": "minecraft:sunflower"
+    },
+    {
+      "item": "minecraft:glistering_melon_slice"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "fluid": "alcocraftvulpinia:sun_pale_ale",
+      "amount": 1000
+    }
+  ]
+}

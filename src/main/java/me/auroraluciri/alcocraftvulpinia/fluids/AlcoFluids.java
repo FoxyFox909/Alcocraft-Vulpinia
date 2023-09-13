@@ -219,6 +219,23 @@ public class AlcoFluids {
                     .build()
                     .register();
 
+    public static final FluidEntry<ForgeFlowingFluid.Flowing> SUN_PALE_ALE =
+            REGISTRATE.fluid("sun_pale_ale", new ResourceLocation("minecraft:block/water_still"), new ResourceLocation("minecraft:block/water_flow"))
+                    .lang("Sun Pale Ale")
+                    .attributes(b -> b.viscosity(1500)
+                            .density(500)
+                            .color(0xFFD18A06)
+                            .sound(SoundEvents.BUCKET_FILL))
+                    .properties(p -> p.levelDecreasePerBlock(2)
+                            .tickRate(25)
+                            .slopeFindDistance(3)
+                            .explosionResistance(100f))
+                    .source(ForgeFlowingFluid.Source::new)
+                    .bucket()
+                    .properties(b -> b.rarity(Rarity.UNCOMMON))
+                    .build()
+                    .register();
+
     public static void register(IEventBus eventBus) {}
 }
 
