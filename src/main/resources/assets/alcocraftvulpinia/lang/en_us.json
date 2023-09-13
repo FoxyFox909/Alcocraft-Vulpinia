@@ -61,6 +61,8 @@
   "item.alcocraftvulpinia.night_rauch_bucket": "Night Rauch Bucket",
   "block.alcocraftvulpinia.sun_pale_ale": "Sun Pale Ale",
   "item.alcocraftvulpinia.sun_pale_ale_bucket": "Sun Pale Ale Bucket",
+  "block.alcocraftvulpinia.wither_stout": "Wither Stout",
+  "item.alcocraftvulpinia.wither_stout_bucket": "Wither Stout Bucket",
 
   "effect.alcocraftvulpinia.flight": "Flight",
   "effect.alcocraftvulpinia.freeze": "Frosty",
