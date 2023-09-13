@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "alcocraftvulpinia:night_rauch_bucket"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "fluid": "alcocraftvulpinia:night_rauch",
+      "amount": 1000
+    }
+  ]
+}
