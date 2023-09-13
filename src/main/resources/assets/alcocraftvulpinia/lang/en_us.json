@@ -53,6 +53,8 @@
   "item.alcocraftvulpinia.magnet_pilsner_bucket": "Magnet Pilsner Bucket",
   "block.alcocraftvulpinia.magnet_pilsner": "Magnet Pilsner",
   "item.alcocraftvulpinia.leprechaun_cider_bucket": "Leprechaun Cider Bucket",
+  "block.alcocraftvulpinia.nether_porter": "Nether Porter",
+  "item.alcocraftvulpinia.nether_porter_bucket": "Nether Porter Bucket",
 
   "effect.alcocraftvulpinia.flight": "Flight",
   "effect.alcocraftvulpinia.freeze": "Frosty",

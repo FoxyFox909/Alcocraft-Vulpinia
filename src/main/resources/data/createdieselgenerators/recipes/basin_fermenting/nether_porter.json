@@ -1,0 +1,28 @@
+{
+  "type": "createdieselgenerators:basin_fermenting",
+  "ingredients": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 1000
+    },
+    {
+      "item": "alcocraftvulpinia:hop"
+    },
+    {
+      "item": "alcocraftvulpinia:dry_seeds"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "fluid": "alcocraftvulpinia:nether_porter",
+      "amount": 1000
+    }
+  ]
+}
