@@ -55,6 +55,8 @@
   "item.alcocraftvulpinia.leprechaun_cider_bucket": "Leprechaun Cider Bucket",
   "block.alcocraftvulpinia.nether_porter": "Nether Porter",
   "item.alcocraftvulpinia.nether_porter_bucket": "Nether Porter Bucket",
+  "block.alcocraftvulpinia.nether_star_lager": "Nether Star Lager",
+  "item.alcocraftvulpinia.nether_star_lager_bucket": "Nether Star Lager Bucket",
 
   "effect.alcocraftvulpinia.flight": "Flight",
   "effect.alcocraftvulpinia.freeze": "Frosty",

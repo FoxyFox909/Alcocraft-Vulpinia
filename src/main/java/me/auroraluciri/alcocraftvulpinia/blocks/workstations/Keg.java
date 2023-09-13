@@ -186,6 +186,15 @@ public class Keg extends BaseEntityBlock {
                             }
                             break;
                         }
+
+                        case 12: {
+                            if (itemStack.isEmpty()) {
+                                player.setItemInHand(hand, new ItemStack(AlcoFluids.NETHER_STAR_LAGER.get().getBucket()));
+                            } else if (!player.getInventory().add(new ItemStack(AlcoFluids.NETHER_STAR_LAGER.get().getBucket()))) {
+                                player.drop(new ItemStack(AlcoFluids.NETHER_STAR_LAGER.get().getBucket()), false);
+                            }
+                            break;
+                        }
                     }
 
                     ((KegEntity) entity).beerLevel = 0;

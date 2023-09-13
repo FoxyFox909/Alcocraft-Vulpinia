@@ -185,6 +185,23 @@ public class AlcoFluids {
                     .build()
                     .register();
 
+    public static final FluidEntry<ForgeFlowingFluid.Flowing> NETHER_STAR_LAGER =
+            REGISTRATE.fluid("nether_star_lager", new ResourceLocation("minecraft:block/water_still"), new ResourceLocation("minecraft:block/water_flow"))
+                    .lang("Nether Star Lager")
+                    .attributes(b -> b.viscosity(1500)
+                            .density(500)
+                            .color(0xFFD0B0FF)
+                            .sound(SoundEvents.BUCKET_FILL))
+                    .properties(p -> p.levelDecreasePerBlock(2)
+                            .tickRate(25)
+                            .slopeFindDistance(3)
+                            .explosionResistance(100f))
+                    .source(ForgeFlowingFluid.Source::new)
+                    .bucket()
+                    .properties(b -> b.rarity(Rarity.UNCOMMON))
+                    .build()
+                    .register();
+
     public static void register(IEventBus eventBus) {}
 }
 

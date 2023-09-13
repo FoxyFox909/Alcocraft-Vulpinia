@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "alcocraftvulpinia:nether_star_lager_bucket"
+    },
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    },
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    },
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    },
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    }
+  ],
+  "result": {
+    "item": "alcocraftvulpinia:mug_of_nether_star_lager",
+    "count": 4
+  }
+}

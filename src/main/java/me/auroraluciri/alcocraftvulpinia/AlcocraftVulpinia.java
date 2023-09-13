@@ -85,6 +85,8 @@ public class AlcocraftVulpinia {
         ItemBlockRenderTypes.setRenderLayer(AlcoFluids.MAGNET_PILSNER.get().getSource(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(AlcoFluids.NETHER_PORTER.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(AlcoFluids.NETHER_PORTER.get().getSource(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(AlcoFluids.NETHER_STAR_LAGER.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(AlcoFluids.NETHER_STAR_LAGER.get().getSource(), RenderType.translucent());
 
         MenuScreens.register(AlcoMenuTypes.KEG_MENU.get(), KegScreen::new);
     }

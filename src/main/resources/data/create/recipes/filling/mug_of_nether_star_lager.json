@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "alcocraftvulpinia:mug_empty"
+    },
+    {
+      "fluid": "alcocraftvulpinia:nether_star_lager",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "alcocraftvulpinia:mug_of_nether_star_lager"
+    }
+  ]
+}
