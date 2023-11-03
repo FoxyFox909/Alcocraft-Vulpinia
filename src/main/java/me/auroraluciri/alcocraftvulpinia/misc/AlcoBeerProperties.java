@@ -4,6 +4,7 @@ import me.auroraluciri.alcocraftvulpinia.effects.AlcoEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
+import quek.undergarden.registry.UGEffects;
 
 public class AlcoBeerProperties {
 
@@ -36,8 +37,9 @@ public class AlcoBeerProperties {
             .nutrition(5)
             .saturationMod(0.6f)
             .alwaysEat()
-            .effect(() -> new MobEffectInstance(MobEffects.WATER_BREATHING, 6000, 0), 1.0f)
-            .effect(() -> new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 3000, 0), 1.0f)
+            .effect(() -> new MobEffectInstance(MobEffects.GLOWING, 3000, 0), 1.0f)
+            .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 3000, 0), 1.0f)
+            .effect(() -> new MobEffectInstance(UGEffects.VIRULENT_RESISTANCE.get(), 6000, 0), 1.0f)
             .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 200, 0), 1.0f)
             .build();
 

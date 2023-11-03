@@ -5,13 +5,13 @@
       "item": "alcocraftvulpinia:hop"
     },
     {
-      "item": "alcocraftvulpinia:dry_seeds"
+      "item": "undergarden:roasted_underbeans"
     },
     {
-      "item": "minecraft:phantom_membrane"
+      "item": "undergarden:droopvine_item"
     },
     {
-      "item": "minecraft:chorus_fruit"
+      "item": "vulpinian_skies_core:grongle_sugar"
     }
   ],
   "output": {

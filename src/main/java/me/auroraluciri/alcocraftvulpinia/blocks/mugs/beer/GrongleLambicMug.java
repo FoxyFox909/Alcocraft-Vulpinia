@@ -1,8 +1,8 @@
 package me.auroraluciri.alcocraftvulpinia.blocks.mugs.beer;
 
 import me.auroraluciri.alcocraftvulpinia.blocks.mugs.MugBlock;
+import me.auroraluciri.alcocraftvulpinia.particles.AlcoParticles;
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 
@@ -17,17 +17,11 @@ public class GrongleLambicMug extends MugBlock {
     public void animateTick(BlockState state, Level world, BlockPos pos, Random random) {
         if (random.nextFloat() < 0.4f) {
             for (int i = 0; i < 3; ++i) {
-                int j = random.nextInt(2) * 2 - 1;
-                int k = random.nextInt(2) * 2 - 1;
+                double d0 = pos.getX() + 0.4D + random.nextDouble() * 0.2D;
+                double d1 = pos.getY() + 0.2D + random.nextDouble() * (0.2D - 0.02D);
+                double d2 = pos.getZ() + 0.4D + random.nextDouble() * 0.2D;
 
-                double d0 = pos.getX() + 0.5d + 0.25d * j;
-                double d1 = pos.getY() + random.nextFloat();
-                double d2 = pos.getZ() + 0.5d + 0.25d * k;
-                double d3 = random.nextFloat() * j;
-                double d4 = (random.nextFloat() - 0.5d) * 0.125d;
-                double d5 = random.nextFloat() * k;
-
-                world.addParticle(ParticleTypes.PORTAL, d0, d1, d2, d3, d4, d5);
+                world.addParticle(AlcoParticles.YELLOW_BUBBLES.get(), d0, d1, d2, 0.0D, random.nextDouble() * 0.1D, 0.0D);
             }
         }
     }

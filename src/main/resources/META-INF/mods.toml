@@ -4,12 +4,13 @@ license="All rights reserved"
 issueTrackerURL=""
 [[mods]]
 modId="alcocraftvulpinia"
-version="${file.jarVersion}"
+#version="${file.jarVersion}"
+version="1.0.1"
 displayName="Alcocraft Vulpinia"
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 #displayURL="https://modrinth.com/mods/alcocraftreloaded/" #optional
 logoFile="alcocraftvulpinia.png"
-credits="Original AlcoCraft mod by hadrus, port by itzme1on"
+credits="Original AlcoCraft mod by hadrus, port by itzme1on, modpack-specific version by Aurora"
 authors="Aurora Luciri"
 description='''
 With this mod you will be able to brew beer and treat your good friends with it!
