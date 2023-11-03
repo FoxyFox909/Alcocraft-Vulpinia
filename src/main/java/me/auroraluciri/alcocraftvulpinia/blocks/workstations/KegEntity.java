@@ -228,6 +228,8 @@ public class KegEntity extends BlockEntity implements MenuProvider {
                 entity.beerType = 11;
             } else if (match.get().getResultItem().getItem().equals(AlcoItems.MUG_OF_NETHER_STAR_LAGER.get())) {
                 entity.beerType = 12;
+            } else if (match.get().getResultItem().getItem().equals(AlcoItems.MUG_OF_GRONGLE_LAMBIC.get())) {
+                entity.beerType = 13;
             }
 
             entity.beerLevel = entity.waterLevel;

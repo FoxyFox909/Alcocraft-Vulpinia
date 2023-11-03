@@ -1,0 +1,28 @@
+{
+  "type": "createdieselgenerators:basin_fermenting",
+  "ingredients": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 1000
+    },
+    {
+      "item": "alcocraftvulpinia:hop"
+    },
+    {
+      "item": "alcocraftvulpinia:dry_seeds"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "fluid": "alcocraftvulpinia:grongle_lambic",
+      "amount": 1000
+    }
+  ]
+}

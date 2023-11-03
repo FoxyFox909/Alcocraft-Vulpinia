@@ -29,6 +29,8 @@ public class SpoutFilling extends BlockSpoutingBehaviour {
             return 0;
         }
 
+        //blockEntity.setBlockState();
+
         IFluidHandler handler = blockEntity.getCapability(CapabilityFluidHandler.FLUID_HANDLER_CAPABILITY, Direction.UP)
                 .orElse(null);
 

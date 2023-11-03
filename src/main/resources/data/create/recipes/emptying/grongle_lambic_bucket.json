@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "alcocraftvulpinia:grongle_lambic_bucket"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "fluid": "alcocraftvulpinia:grongle_lambic",
+      "amount": 1000
+    }
+  ]
+}

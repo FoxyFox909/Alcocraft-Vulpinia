@@ -67,6 +67,12 @@ public class AlcoBlocks {
                     .noOcclusion()
                     .destroyTime(0.10f)));
 
+    public static final RegistryObject<Block> MUG_OF_GRONGLE_LAMBIC = registerBlockWithoutItem("mug_of_grongle_lambic",
+            () -> new GrongleLambicMug(BlockBehaviour.Properties
+                    .copy(Blocks.BARREL)
+                    .noOcclusion()
+                    .destroyTime(0.10f)));
+
     public static final RegistryObject<Block> MUG_OF_ICE_BEER = registerBlockWithoutItem("mug_of_ice_beer",
             () -> new IceBeerMug(BlockBehaviour.Properties
                     .copy(Blocks.BARREL)

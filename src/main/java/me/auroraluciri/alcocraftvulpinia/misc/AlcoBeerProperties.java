@@ -32,6 +32,15 @@ public class AlcoBeerProperties {
             .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 200, 0), 1.0f)
             .build();
 
+    public static final FoodProperties GRONGLE_LAMBIC = new FoodProperties.Builder()
+            .nutrition(5)
+            .saturationMod(0.6f)
+            .alwaysEat()
+            .effect(() -> new MobEffectInstance(MobEffects.WATER_BREATHING, 6000, 0), 1.0f)
+            .effect(() -> new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 3000, 0), 1.0f)
+            .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 200, 0), 1.0f)
+            .build();
+
     public static final FoodProperties ICE_BEER = new FoodProperties.Builder()
             .nutrition(5)
             .saturationMod(0.6f)

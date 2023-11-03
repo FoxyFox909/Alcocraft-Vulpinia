@@ -44,4 +44,24 @@ public class AlcoCraftEvents {
                         (new ResourceLocation(AlcocraftVulpinia.MOD_ID,"add_item"))
         );
     }
+
+//    @SubscribeEvent
+//    public static void onRegisterCapabilities(RegisterCapabilitiesEvent event) {
+//        event.register(AlcoholContent.class);
+//    }
+//
+//    @SubscribeEvent
+//    public static void onAttachCapabilitiesItem(AttachCapabilitiesEvent<ItemStack> event) {
+//        if (event.getObject() instanceof ItemStack(MugItem)) {
+//            if (!event.getObject().getCapability(AlcoholContentProvider.ALCOHOL_CONTENT).isPresent()) {
+//                event.addCapability(new ResourceLocation(AlcocraftVulpinia.MOD_ID), new AlcoholContentProvider());
+//            }
+//        }
+//
+//    }
+
+
+
+
+
 }

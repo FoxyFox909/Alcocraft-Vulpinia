@@ -147,6 +147,9 @@ public class KegScreen extends AbstractContainerScreen<KegMenu> {
         } else if (menu.getBeerType() == 12) {
             RenderSystem.setShaderColor(199f / 255f, 183f / 255f,
                     1.0f, 1.0f);
+        } else if (menu.getBeerType() == 13) {
+            RenderSystem.setShaderColor(245 / 255f, 245f / 255f,
+                    10f / 255f, 1.0f);
         }
 
         for (int j = 0; j <= 3; j++) {

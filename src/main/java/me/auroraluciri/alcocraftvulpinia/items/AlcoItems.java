@@ -49,6 +49,12 @@ public class AlcoItems {
                     .stacksTo(16)
                     .food(AlcoBeerProperties.DROWNED_ALE)));
 
+    public static final RegistryObject<Item> MUG_OF_GRONGLE_LAMBIC = ITEMS.register("mug_of_grongle_lambic",
+            () -> new MugItem(AlcoBlocks.MUG_OF_GRONGLE_LAMBIC.get(), new Item.Properties()
+                    .tab(AlcoTabGroup.GROUP)
+                    .stacksTo(16)
+                    .food(AlcoBeerProperties.GRONGLE_LAMBIC)));
+
     public static final RegistryObject<Item> MUG_OF_ICE_BEER = ITEMS.register("mug_of_ice_beer",
             () -> new MugItem(AlcoBlocks.MUG_OF_ICE_BEER.get(), new Item.Properties()
                     .tab(AlcoTabGroup.GROUP)

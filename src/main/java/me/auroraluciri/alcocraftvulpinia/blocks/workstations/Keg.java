@@ -222,6 +222,15 @@ public class Keg extends BaseEntityBlock {
                             }
                             break;
                         }
+
+                        case 13: {
+                            if (itemStack.isEmpty()) {
+                                player.setItemInHand(hand, new ItemStack(AlcoFluids.GRONGLE_LAMBIC.get().getBucket()));
+                            } else if (!player.getInventory().add(new ItemStack(AlcoFluids.GRONGLE_LAMBIC.get().getBucket()))) {
+                                player.drop(new ItemStack(AlcoFluids.GRONGLE_LAMBIC.get().getBucket()), false);
+                            }
+                            break;
+                        }
                     }
 
                     ((KegEntity) entity).beerLevel = 0;
@@ -348,6 +357,15 @@ public class Keg extends BaseEntityBlock {
                                 player.setItemInHand(hand, new ItemStack(AlcoItems.MUG_OF_NETHER_STAR_LAGER.get()));
                             } else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_NETHER_STAR_LAGER.get()))) {
                                 player.drop(new ItemStack(AlcoItems.MUG_OF_NETHER_STAR_LAGER.get()), false);
+                            }
+                            break;
+                        }
+
+                        case 13: {
+                            if (itemStack.isEmpty()) {
+                                player.setItemInHand(hand, new ItemStack(AlcoItems.MUG_OF_GRONGLE_LAMBIC.get()));
+                            } else if (!player.getInventory().add(new ItemStack(AlcoItems.MUG_OF_GRONGLE_LAMBIC.get()))) {
+                                player.drop(new ItemStack(AlcoItems.MUG_OF_GRONGLE_LAMBIC.get()), false);
                             }
                             break;
                         }

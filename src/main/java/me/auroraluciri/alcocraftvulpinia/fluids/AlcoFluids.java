@@ -100,6 +100,23 @@ public class AlcoFluids {
                     .build()
                     .register();
 
+    public static final FluidEntry<ForgeFlowingFluid.Flowing> GRONGLE_LAMBIC =
+            REGISTRATE.fluid("grongle_lambic", new ResourceLocation("minecraft:block/water_still"), new ResourceLocation("minecraft:block/water_flow"))
+                    .lang("Grongle Lambic")
+                    .attributes(b -> b.viscosity(1500)
+                            .density(500)
+                            .color(0xFFF5F50A)
+                            .sound(SoundEvents.BUCKET_FILL))
+                    .properties(p -> p.levelDecreasePerBlock(2)
+                            .tickRate(25)
+                            .slopeFindDistance(3)
+                            .explosionResistance(100f))
+                    .source(ForgeFlowingFluid.Source::new)
+                    .bucket()
+                    .properties(b -> b.rarity(Rarity.UNCOMMON))
+                    .build()
+                    .register();
+
     public static final FluidEntry<ForgeFlowingFluid.Flowing> ICE_BEER =
             REGISTRATE.fluid("ice_beer", new ResourceLocation("minecraft:block/water_still"), new ResourceLocation("minecraft:block/water_flow"))
                     .lang("Ice Beer")

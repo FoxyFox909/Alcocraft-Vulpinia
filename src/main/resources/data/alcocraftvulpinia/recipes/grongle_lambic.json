@@ -1,0 +1,20 @@
+{
+  "type": "alcocraftvulpinia:beer_brewing",
+  "ingredients": [
+    {
+      "item": "alcocraftvulpinia:hop"
+    },
+    {
+      "item": "alcocraftvulpinia:dry_seeds"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    }
+  ],
+  "output": {
+    "item": "alcocraftvulpinia:mug_of_grongle_lambic"
+  }
+}

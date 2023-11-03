@@ -23,6 +23,7 @@
   "item.alcocraftvulpinia.mug_of_leprechaun_cider": "Leprechaun Cider Mug",
   "item.alcocraftvulpinia.mug_of_chorus_ale": "Chorus Ale Mug",
   "item.alcocraftvulpinia.mug_of_nether_star_lager": "Nether Star Lager Mug",
+  "item.alcocraftvulpinia.mug_of_grongle_lambic": "Grongle Lambic Mug",
 
   "block.alcocraftvulpinia.mug_empty": "Empty Mug",
 
@@ -38,6 +39,7 @@
   "block.alcocraftvulpinia.mug_of_leprechaun_cider": "Кружка сидра",
   "block.alcocraftvulpinia.mug_of_chorus_ale": "Кружка хорусного эля",
   "block.alcocraftvulpinia.mug_of_nether_star_lager": "Кружка лагера «Звезда Незера»",
+  "block.alcocraftvulpinia.mug_of_grongle_lambic": "Mug «Grongle Lambic»",
 
   "block.alcocraftvulpinia.chorus_ale": "Chorus Ale",
   "item.alcocraftvulpinia.chorus_ale_bucket": "Chorus Ale Bucket",
@@ -63,6 +65,8 @@
   "item.alcocraftvulpinia.sun_pale_ale_bucket": "Sun Pale Ale Bucket",
   "block.alcocraftvulpinia.wither_stout": "Wither Stout",
   "item.alcocraftvulpinia.wither_stout_bucket": "Wither Stout Bucket",
+  "block.alcocraftvulpinia.grongle_lambic": "Grongle Lambic",
+  "item.alcocraftvulpinia.grongle_lambic_bucket": "Grongle Lambic Bucket",
 
   "effect.alcocraftvulpinia.flight": "Flight",
   "effect.alcocraftvulpinia.freeze": "Frosty",
